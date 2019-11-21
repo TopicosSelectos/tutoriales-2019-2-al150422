@@ -1,0 +1,19 @@
+# Definition of vectors
+name <- c("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+name
+type <- c("Terrestrial planet", "Terrestrial planet", "Terrestrial planet", 
+          "Terrestrial planet", "Gas giant", "Gas giant", "Gas giant", "Gas giant")
+type
+type <- c("Terrestrial planet", "Terrestrial planet", "Terrestrial planet", 
+          "Terrestrial planet", "Gas giant", "Gas giant", "Gas giant", "Gas giant")
+type
+rotation <- c(58.64, -243.02, 1, 1.03, 0.41, 0.43, -0.72, 0.67)
+rotation
+diameter <- c(0.382, 0.949, 1, 0.532, 11.209, 9.449, 4.007, 3.883)
+diameter
+rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
+rings
+# Create a data frame from the vectors
+planets_df <- data.frame(name, type, diameter, rotation, rings)
+planets_df
+class(planets_df)

@@ -1,0 +1,1 @@
+theory <- "factors for categorical variables"
